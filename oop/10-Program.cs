@@ -1,8 +1,4 @@
-Fatemeh fatemeh = new Fatemeh();
-fatemeh.Name = "Fatemeh";
-fatemeh.Gender = "Female";
-fatemeh.Age = 22;
-fatemeh.Blood_group = "o";
+Fatemeh fatemeh = new Fatemeh("Fatemeh", "Female", 22, "O");
 Console.WriteLine(fatemeh.Name);
 Console.WriteLine(fatemeh.Gender);
 Console.WriteLine(fatemeh.Age);
@@ -12,11 +8,7 @@ Console.WriteLine(fatemeh.Hobby());
 
 Console.WriteLine("------------");
 
-David david = new David();
-david.Name = "David";
-david.Gender = "male";
-david.Age = 20;
-david.Blood_group = "AB";
+David david = new David("David", "male", 20, "AB");
 Console.WriteLine(david.Name);
 Console.WriteLine(david.Gender);
 Console.WriteLine(david.Age);
@@ -26,11 +18,7 @@ Console.WriteLine(david.Hobby());
 
 Console.WriteLine("------------");
 
-Hossein hossein = new Hossein();
-hossein.Name = "Hossein";
-hossein.Gender = "male";
-hossein.Age = 23;
-hossein.Blood_group = "A";
+Hossein hossein = new Hossein("Hossein", "male", 23, "A");
 Console.WriteLine(hossein.Name);
 Console.WriteLine(hossein.Gender);
 Console.WriteLine(hossein.Age);
@@ -40,11 +28,7 @@ Console.WriteLine(hossein.Hobby());
 
 Console.WriteLine("------------");
 
-Jamy jamy = new Jamy();
-jamy.Name = "Jamy";
-jamy.Gender = "male";
-jamy.Age = 20;
-jamy.Blood_group = "A";
+Jamy jamy = new Jamy("Jamy", "male", 20, "A");
 Console.WriteLine(jamy.Name);
 Console.WriteLine(jamy.Gender);
 Console.WriteLine(jamy.Age);
@@ -55,11 +39,7 @@ Console.WriteLine(jamy.Place_of_residence());
 
 Console.WriteLine("------------");
 
-Lara lara = new Lara();
-lara.Name = "Lara";
-lara.Gender = "Female";
-lara.Age = 30;
-lara.Blood_group = "O";
+Lara lara = new Lara("Lara", "Female", 30, "O");
 Console.WriteLine(lara.Name);
 Console.WriteLine(lara.Gender);
 Console.WriteLine(lara.Age);
@@ -69,11 +49,7 @@ Console.WriteLine(lara.Hobby());
 
 Console.WriteLine("------------");
 
-Mahdis mahdis = new Mahdis();
-mahdis.Name = "mahdis";
-mahdis.Gender = "Female";
-mahdis.Age = 30;
-mahdis.Blood_group = "B";
+Mahdis mahdis = new Mahdis("Mahdis", "Female", 30, "B");
 Console.WriteLine(mahdis.Name);
 Console.WriteLine(mahdis.Gender);
 Console.WriteLine(mahdis.Age);
@@ -84,11 +60,7 @@ Console.WriteLine(mahdis.Place_of_residence());
 
 Console.WriteLine("------------");
 
-Mahsima mahsima = new Mahsima();
-mahsima.Name = "mahsima";
-mahsima.Gender = "Female";
-mahsima.Age = 14;
-mahsima.Blood_group = "AB";
+Mahsima mahsima = new Mahsima("Mahsima", "Female", 14, "AB");
 Console.WriteLine(mahsima.Name);
 Console.WriteLine(mahsima.Gender);
 Console.WriteLine(mahsima.Age);
@@ -99,11 +71,7 @@ Console.WriteLine(mahsima.can_walk());
 
 Console.WriteLine("------------");
 
-Samaneh samaneh = new Samaneh();
-samaneh.Name = "samaneh";
-samaneh.Gender = "Female";
-samaneh.Age = 32;
-mahsima.Blood_group = "O";
+Samaneh samaneh = new Samaneh("Samaneh", "Female", 32, "O");
 Console.WriteLine(samaneh.Name);
 Console.WriteLine(samaneh.Gender);
 Console.WriteLine(samaneh.Age);
